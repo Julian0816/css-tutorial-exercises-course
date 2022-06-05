@@ -1,6 +1,16 @@
 body {
 	background: #bdbdbd;
 }
-.rounded {
-	border-radius: 100%;
+
+.container {
+	width: 300px;
+	height: 300px;
+}
+
+img.rounded {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: 50% 0%;
 }
